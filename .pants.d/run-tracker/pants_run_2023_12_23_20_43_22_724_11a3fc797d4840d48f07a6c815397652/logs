@@ -1,0 +1,8 @@
+20:43:22.76 [INFO] notify invalidation: cleared 1 and dirtied 30 nodes for: {".tmpe59Tfz.hardlink_canary", ""}
+20:43:22.76 [INFO] notify invalidation: cleared 1 and dirtied 30 nodes for: {".tmpe59Tfz.hardlink_canary", ""}
+20:43:22.76 [INFO] notify invalidation: cleared 1 and dirtied 23 nodes for: {"src/api/BUILD", "src/api"}
+20:43:22.76 [INFO] notify invalidation: cleared 1 and dirtied 23 nodes for: {"src/repo1", "src/repo1/BUILD"}
+20:43:22.76 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/api/BUILD"}
+20:43:22.76 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/api", "src/api/BUILD"}
+20:43:22.76 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/repo1/BUILD"}
+20:43:22.76 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/repo1", "src/repo1/BUILD"}

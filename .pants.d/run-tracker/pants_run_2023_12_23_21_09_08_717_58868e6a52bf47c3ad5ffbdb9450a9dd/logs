@@ -1,0 +1,12 @@
+21:09:08.75 [31m[ERROR][0m 1 Exception encountered:
+
+Engine traceback:
+  in `run` goal
+
+TooManyTargetsException: The `run` goal only works with one valid target, but was given multiple valid targets:
+
+  * src/api/__init__.py
+  * src/api/main.py
+
+Please select one of these targets to run.
+
