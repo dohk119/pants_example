@@ -1,1 +1,1 @@
-lorugur==0.7.2
+loguru==0.7.2

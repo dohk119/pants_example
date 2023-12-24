@@ -1,5 +1,0 @@
-19:07:15.46 [INFO] notify invalidation: cleared 1 and dirtied 125 nodes for: {"", ".tmpdIGqNc.hardlink_canary"}
-19:07:15.46 [INFO] notify invalidation: cleared 1 and dirtied 125 nodes for: {".tmpdIGqNc.hardlink_canary", ""}
-19:07:15.46 [INFO] notify invalidation: cleared 1 and dirtied 121 nodes for: {"src", "src/BUILD"}
-19:07:15.46 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/BUILD"}
-19:07:15.46 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src", "src/BUILD"}

@@ -1,4 +1,8 @@
+# Ignore virtualEnv
+.venv
+.env
+
 # Pants workspace files
-/.pants.*
-/dist/
-/.pids
+.pants.d/
+dist/
+.pids

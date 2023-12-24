@@ -1,5 +1,0 @@
-21:09:15.98 [33m[WARN][0m Pants cannot infer owners for the following imports in the target src/api/main.py:
-
-  * repo1.hello.Hello (line: 1)
-
-If you do not expect an import to be inferrable, add `# pants: no-infer-dep` to the import line. Otherwise, see https://www.pantsbuild.org/v2.18/docs/troubleshooting#import-errors-and-missing-dependencies for common problems.

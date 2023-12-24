@@ -1,3 +1,0 @@
-20:42:18.33 [31m[ERROR][0m No relevant backends activate the `tailor` goal, so the goal would do nothing.
-
-This usually means that you have not yet set the option `[GLOBAL].backend_packages` in `pants.toml`, which is how Pants knows which languages and tools to support. Run `pants help backends`.
