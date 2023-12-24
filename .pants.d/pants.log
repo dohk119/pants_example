@@ -449,3 +449,23 @@ FATAL: exception not rethrown
 19:17:20.30 [INFO] Extending leases
 19:17:20.30 [INFO] Done extending leases
 19:17:43.05 [INFO] notify invalidation: cleared 1 and dirtied 201 nodes for: {".git", ""}
+19:18:40.31 [INFO] Extending leases
+19:18:40.31 [INFO] Done extending leases
+19:19:23.73 [INFO] notify invalidation: cleared 1 and dirtied 201 nodes for: {".gitignore", ""}
+19:19:23.74 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=('.gitignore',), their_unique_dirs=(), changed_files=()). terminating the daemon.
+19:19:24.02 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f9598449730>.
+19:19:24.02 [INFO] Waiting for ongoing runs to complete before exiting...
+19:19:24.02 [INFO] Server exiting with Ok(())
+19:19:24.02 [INFO] Waiting for Sessions to complete before exiting...
+19:19:24.02 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2023_12_24_19_00_00_204_c8bf7920db504520b2e11c2adad62b32", "pants_run_2023_12_24_19_07_15_417_165a86a99e414bcc813d74426b5fa9d7", "pants_run_2023_12_24_19_07_25_326_2caea95a0421498a926cb6b1859430be", "pants_run_2023_12_24_19_09_43_206_9a8da9e7f8a54c67a980a6c3c274e6d0", "pants_run_2023_12_24_19_10_09_151_095aca3343d04f00a9c9ec228bd6006d", "pants_run_2023_12_24_19_12_58_717_35c72fb707904e78af621ade20288aa4", "pants_run_2023_12_24_19_13_01_677_db148e4389d4423d91c3e5b9b9679dc6"]
+19:19:24.02 [INFO] Shutdown completed: "scheduler_service_session"
+19:19:24.02 [INFO] Shutdown completed: "store_gc_service_session"
+19:19:24.02 [INFO] Shutdown completed: "pants_run_2023_12_24_19_00_00_204_c8bf7920db504520b2e11c2adad62b32"
+19:19:24.02 [INFO] Shutdown completed: "pants_run_2023_12_24_19_07_15_417_165a86a99e414bcc813d74426b5fa9d7"
+19:19:24.02 [INFO] Shutdown completed: "pants_run_2023_12_24_19_07_25_326_2caea95a0421498a926cb6b1859430be"
+19:19:24.02 [INFO] Shutdown completed: "pants_run_2023_12_24_19_09_43_206_9a8da9e7f8a54c67a980a6c3c274e6d0"
+19:19:24.02 [INFO] Shutdown completed: "pants_run_2023_12_24_19_10_09_151_095aca3343d04f00a9c9ec228bd6006d"
+19:19:24.02 [INFO] Shutdown completed: "pants_run_2023_12_24_19_12_58_717_35c72fb707904e78af621ade20288aa4"
+19:19:24.02 [INFO] Shutdown completed: "pants_run_2023_12_24_19_13_01_677_db148e4389d4423d91c3e5b9b9679dc6"
+19:19:24.03 [INFO] Exiting pantsd
+19:19:24.03 [WARN] File watcher exiting with: The watcher was shut down.
