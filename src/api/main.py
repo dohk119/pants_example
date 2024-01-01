@@ -3,12 +3,21 @@ from loguru import logger
 
 from user import User
 
-cosa: Hello = Hello()
-print(cosa.greet())
+from typing import Union
 
-logger.info('Logging!!!!')
+from fastapi import FastAPI
+import uvicorn
 
-user = User(id=1, name='Hello')
-print(user)
+logger.info('Creating!!!!')
+
+app = FastAPI()
 
 
+@app.get("/")
+async def read_root():
+    return {"Hello": "World"}
+
+
+if __name__ == "__main__":
+    logger.info('Starting....')
+    uvicorn.run(app, port=8000, log_level="debug")
