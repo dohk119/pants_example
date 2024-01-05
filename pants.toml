@@ -13,3 +13,9 @@ root_patterns = [
 
 [python]
 interpreter_constraints = ["==3.8.*"]
+enable_resolves = true
+default_resolve = "resolver"
+
+[python.resolves]
+resolver = "main_lockfile.lock"
+lib1_resolver = "lib/lib1/lib1_resolver.lock"
