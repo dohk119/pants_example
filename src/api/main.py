@@ -1,7 +1,8 @@
-from src.repo1.hello import Hello
+from repo1.hello import Hello
 from loguru import logger
 
 from user import User
+from cosa import Cosa
 
 from typing import Union
 
@@ -15,7 +16,10 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {"Hello": "World"}
+    user = User(id=1, name='Kitty')
+    cosa = Cosa(id=2, name='Cosa')
+    return [user, cosa]
+    # return {"Hello": "World"}
 
 
 if __name__ == "__main__":

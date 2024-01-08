@@ -7,8 +7,9 @@ backend_packages = [
 
 [source]
 root_patterns = [
-  '/',
-  '/lib/lib1/src'
+  '/src',
+  '/lib/lib1/src',
+  '/lib/lib2/src'
 ]
 
 [python]
@@ -19,3 +20,4 @@ default_resolve = "resolver"
 [python.resolves]
 resolver = "main_lockfile.lock"
 lib1_resolver = "lib/lib1/lib1_resolver.lock"
+lib2_resolver = "lib/lib2/lib2_resolver.lock"
